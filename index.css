@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(218, 255, 255);
+}
+h1, h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section{
+    border: 3px solid;
+    border-radius: 40px;
+    text-align: center;
+    margin: 20px;
+}
+p:hover{
+    color: rgb(5, 127, 127);
+}
+#About{
+    background-color: rgb(255, 219, 99);
+}
+
+#projects{
+    background-color: rgb(245, 133, 129);
+}
