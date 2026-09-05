@@ -29,4 +29,9 @@ To run and edit this project locally, follow these steps:
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/hack1kali/MY-Site-test.git](https://github.com/hack1kali/MY-Site-test.git)```
-1. **open index.html in the browser**
+2. **open index.html in the browser**
+
+## How It Works
+Built using raw HTML and CSS3, prioritizing ultra-fast load times, semantic HTML structure, and clean CSS styling (styel.css).
+
+Hosted using GitHub Pages.
