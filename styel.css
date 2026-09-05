@@ -1,0 +1,205 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    font-family: Arial, sans-serif;
+    background-image: url('wallpaper.jpg');
+    background-repeat: no-repeat;      
+    background-position: center center; 
+    background-size: cover;
+    background-attachment: fixed;
+}
+div{
+    text-align: center;    
+    align-items: center;  
+    max-width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    background: rgba(166, 65, 102, 0.45);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+    
+h1, h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    color: #4fcba8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+    text-shadow: 
+        0 0 5px #4fcba8,
+        0 0 1px #4fcba8,
+        0 0 1px #4fcba8,
+        0 0 20px #2a836a;
+
+    display: inline-block;
+}
+nav {
+    margin: 10px 0 30px 0;
+    display: flex;
+    justify-content: center;
+    gap: 0.5px; 
+}
+
+
+nav a {
+    text-decoration: none;
+    font-family: Arial, sans-serif; 
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #4fcba8; 
+    
+    padding: 8px 22px;
+    border-radius: 20px;
+    
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(79, 203, 168, 0.3); 
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    
+    transition: all 0.3s ease;
+}
+
+
+nav a:hover {
+    background: rgba(79, 203, 168, 0.2);
+    border-color: #4fcba8;
+    color: #ffffff;
+    
+    box-shadow: 0 0 12px rgba(79, 203, 168, 0.5);
+    transform: translateY(-2px);
+}
+section {
+    border-radius: 25px;
+    text-align: center;
+    margin: 20px auto;       
+    padding: 20px 25px;
+    width: 90%;             
+    box-sizing: border-box;
+    
+  
+    background: rgba(15, 15, 20, 0.45);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    
+  
+    transition: all 0.3s ease-in-out;
+}
+section h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+section p {
+    color: #e0e0e0; 
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin: 0;
+}
+#About {
+    border: 2px solid rgba(255, 219, 99, 0.5);
+    box-shadow: 0 0 10px rgba(255, 219, 99, 0.15);
+}
+
+#About h2 {
+    color: rgb(255, 219, 99);
+    text-shadow: 0 0 8px rgba(255, 219, 99, 0.5);
+}
+
+#About:hover {
+    border-color: rgb(255, 219, 99);
+    box-shadow: 0 0 20px rgba(255, 219, 99, 0.4);
+    transform: translateY(-3px); 
+}
+#skills {
+    border: 2px solid rgba(79, 172, 254, 0.5);
+    box-shadow: 0 0 10px rgba(79, 172, 254, 0.15);
+}
+
+#skills h2 {
+    color: rgb(79, 172, 254);
+    text-shadow: 0 0 8px rgba(79, 172, 254, 0.5);
+}
+
+#skills:hover {
+    border-color: rgb(79, 172, 254);
+    box-shadow: 0 0 20px rgba(79, 172, 254, 0.4);
+    transform: translateY(-3px);
+}
+
+
+.skills-tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+
+.skills-tags span {
+    background: rgba(79, 172, 254, 0.12);
+    border: 1px solid rgba(79, 172, 254, 0.4);
+    color: #e0e0e0;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    backdrop-filter: blur(4px);
+    transition: all 0.3s ease;
+}
+
+.skills-tags span:hover {
+    background: rgba(79, 172, 254, 0.3);
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(79, 172, 254, 0.6);
+    transform: translateY(-2px);
+}
+
+
+#projects {
+    border: 2px solid rgba(245, 133, 129, 0.5);
+    box-shadow: 0 0 10px rgba(245, 133, 129, 0.15);
+}
+
+#projects h2 {
+    color: rgb(245, 133, 129);
+    text-shadow: 0 0 8px rgba(245, 133, 129, 0.5);
+}
+
+#projects p {
+    text-align: left; 
+    line-height: 1.8;
+}
+
+#projects strong {
+    color: #ffffff; 
+}
+
+#projects:hover {
+    border-color: rgb(245, 133, 129);
+    box-shadow: 0 0 20px rgba(245, 133, 129, 0.4);
+    transform: translateY(-3px);
+}
+
+a {
+    display: inline-block;
+    margin-top: 25px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #4fcba8;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+    margin: 10px;
+}
+a:hover {
+    opacity: 1;
+    color: #ffffff;
+    text-shadow: 0 0 10px #4fcba8;
+}
