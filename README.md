@@ -1,24 +1,20 @@
 # Baraa Web Site
+This is my personal portfolio website projects, show my technical skills, and social links.
 <img width="1672" height="907" alt="image" src="https://github.com/user-attachments/assets/43ea5fb6-fcfa-4dcd-ac56-5e275d458aa7" />
-A minimal, lightweight personal portfolio website highlighting projects, technical skills, and social links.
 
-## [Try the Live Demo](https://hack1kali.github.io/MY-Site-test/)
-
----
-
-## Quick Start
-
-No installation required! Simply open `index.html` in any web browser, or view it live via [GitHub Pages](https://hack1kali.github.io/MY-Site-test/).
+## [Try it](https://hack1kali.github.io/MY-Site-test/)
 
 ---
+## Quick start
+https://hack1kali.github.io/MY-Site-test/
 
 ## Features
 
-- **About Me Section**: Overview of background, technical interests, and focus areas.
-- **Skills Showcase**: Core tools, technical stack, and software proficiency.
-- **Project Portfolio**: Highlighted repositories, write-ups, and active builds.
-- **Contact & Links**: Fast access to personal social profiles and channels.
-- **Planned Feature**: Integrated Markdown blog renderer using GitHub content integration.
+- **About Me **: I simple describe about my self.
+- **Skills**: showing my technical skills.
+- **Project**: showing my projects I'm working on.
+- **Links**: my social profiles.
+- **Planned Feature**: Integrated Markdown blog renderer for my wrateups and notes.
 
 ---
 
@@ -32,6 +28,8 @@ To run and edit this project locally, follow these steps:
 2. **open index.html in the browser**
 
 ## How It Works
-Built using raw HTML and CSS3, prioritizing ultra-fast load times, semantic HTML structure, and clean CSS styling (styel.css).
+I build it using  HTML and CSS
 
-Hosted using GitHub Pages.
+## Credits / acknowledgements
+web 3 & Stardance
+
