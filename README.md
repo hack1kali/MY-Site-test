@@ -22,7 +22,7 @@ No installation required! Simply open `index.html` in any web browser, or view i
 
 ---
 
-## 🛠️ How to Run It Locally
+## How to Run It Locally
 
 To run and edit this project locally, follow these steps:
 
