@@ -10,7 +10,7 @@ https://hack1kali.github.io/MY-Site-test/
 
 ## Features
 
-- **About Me **: I simple describe about my self.
+- **About Me**: who am i and what things I'm intresting in.
 - **Skills**: showing my technical skills.
 - **Project**: showing my projects I'm working on.
 - **Links**: my social profiles.
