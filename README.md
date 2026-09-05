@@ -8,4 +8,5 @@ this is my personal web site created by html, css
 - skills
 - projects
 - linkes
+
 I'll add a blog to the site that's render .md files from a file in github
